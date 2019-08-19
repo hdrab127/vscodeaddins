@@ -1,0 +1,4 @@
+Name: To uppercase
+Description: Convert selected text to uppercase.
+Binding: to_upper_addin
+Interactive: false

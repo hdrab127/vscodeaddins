@@ -1,0 +1,17 @@
+Package: vscodeaddins
+Type: Package
+Title: RStudio Addins for VS Code Commands
+Version: 0.1.0
+Author: H Rabel
+Maintainer: <hdr29@uclive.ac.nz>
+Description: Bring VS Code commands to RStudio via Addins.
+    Currently only "Transform to Uppercase" is implemented, in future
+    will add tolower, trim trailing whitespace, and add selection to next
+    find match (i.e. Ctrl+D).
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.6.1),
+    rstudioapi (>= 0.10)
+RoxygenNote: 6.1.1
