@@ -7,7 +7,7 @@
 #' @export
 trim_trailing_whitespace_addin <- function() {
   ctx <- rstudioapi::getActiveDocumentContext()
-  trimmed_text <- gsub('\\s*\n', '\n', ctx$selection[[1]]$text)
+  trimmed_text <- gsub(' +(\n|$)', '\n', ctx$selection[[1]]$text)
   rstudioapi::insertText(location = ctx$selection[[1]]$range,
                          text = trimmed_text)
 }
