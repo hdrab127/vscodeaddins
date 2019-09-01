@@ -2,3 +2,8 @@ Name: To uppercase
 Description: Convert selected text to uppercase.
 Binding: to_upper_addin
 Interactive: false
+
+Name: Trim trailing whitespace
+Description: Remove all trailing whitespace to the end of each line.
+Binding: trim_trailing_whitespace_addin
+Interactive: false
